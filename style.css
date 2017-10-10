@@ -1,12 +1,44 @@
-sectionwrapper {
+#sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#content {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+#title {
+    border: solid blue 3px;
+    padding: 60px;
+    flex-wrap: nowrap;
+}
+
+#nav_menu {
+    border: solid yellow 3px;
+    padding: 40px;
+    flex-wrap: nowrap;
+}
+
+#mid_section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .column {
-    border: solid black 3px;
-    padding: 50px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    border: solid pink 3px;
+    padding: 100px;
+    height: 200px;
+}
+
+#footer {
+    border: solid purple 3px;
+    padding: 60px;
+    flex-wrap: nowrap;
 }
 
 
