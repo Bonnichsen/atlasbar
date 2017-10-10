@@ -66,7 +66,7 @@ nav li {
 nav a {
     display: block;
     color: #F7F0E7;
-    background-color: 2d2d2d;
+    background-color: #2d2d2d;
     margin: 0;
     padding: 10px;
     text-decoration: none;
@@ -81,13 +81,13 @@ nav a:hover {
 /*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
-    background-color: #29484C;
+    background-color: #2d2d2d;
     color: #F7F0E7;
     padding: 16px;
     width: 248.5px;
     border: none;
     cursor: pointer;
-    font-family: 'Russo One';
+    font-family: 'Arial Black';
     font-size: 1.5em;
     text-align: left;
 }
@@ -103,11 +103,11 @@ nav a:hover {
     right: 0;
     top: 0;
     margin: 0;
-    background-color: #29484C;
+    background-color: #2d2d2d;
 }
 
 .dropdown ul {
-    background-color: #29484C;
+    background-color: #2d2d2d;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -120,7 +120,7 @@ nav a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #358287;
+    background-color: darkred;
     min-width: 160px;
     z-index: 1;
 }
@@ -132,18 +132,18 @@ nav a:hover {
     text-decoration: none;
     display: block;
     font-family: 'Russo One';
-    background-color: #358287;
-    border: 2px solid #358287;
+    background-color: darkred;
+    border: 2px solid darkred;
 }
 
 .dropdown-content li {
     list-style-type: none;
-    background-color: #358287;
+    background-color: #2d2d2d;
 }
 
 .dropdown-content a:hover {
-    background-color: #7FC2B9;
-    border: 2px solid #29484C;
+    background-color: red;
+    border: 2px solid #2d2d2d;
 }
 
 .dropdown:hover .dropdown-content {
@@ -151,7 +151,7 @@ nav a:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #358287;
+    background-color: darkred;
 }
 
 
