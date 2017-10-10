@@ -17,7 +17,6 @@
 
 #nav_menu {
     border: solid yellow 3px;
-    padding: 40px;
     flex-wrap: nowrap;
 }
 
@@ -45,17 +44,13 @@
 /*--------- NAVIGATION MENU -------*/
 
 nav {
-    background-color: #29484C;
-    position: fixed;
+    background-color: #2d2d2d;
+    position: relative;
     width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: 0;
 }
 
 nav ul {
-    background-color: #29484C;
+    background-color: #2d2d2d;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -63,7 +58,7 @@ nav ul {
 }
 
 nav li {
-    background-color: #29484C;
+    background-color: #2d2d2d;
     display: inline-block;
     margin: 0;
 }
@@ -71,15 +66,15 @@ nav li {
 nav a {
     display: block;
     color: #F7F0E7;
-    background-color: #29484C;
+    background-color: 2d2d2d;
     margin: 0;
     padding: 10px;
     text-decoration: none;
-    font-family: 'Russo One';
+    font-family: 'Arial Black';
 }
 
 nav a:hover {
-    background-color: #358287;
+    background-color: darkred;
 }
 
 
