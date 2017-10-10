@@ -43,36 +43,16 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    width: 100%;
-    height: 100%;
 }
 
 .column_left {
     flex-grow: 90;
     flex-basis: 200px;
+    padding: 100px;
     height: 200px;
     background-color: #2d2d2d;
     opacity: 0.9;
 }
-
-
-/* ----- YOUTUBE VIDEO -----*/
-
-.hs-responsive-embed-youtube iframe {
-    position: absolute;
-    width: 100%!important;
-    height: 100%!important;
-}
-
-.hs-responsive-embed-youtube {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 Aspect Ratio */
-    padding-top: 25px;
-}
-
-
-/*------ YOUTUBE VIDEO SLUT -----*/
 
 .column_right {
     flex-grow: 1;
@@ -120,9 +100,11 @@ nav a {
     color: #F7F0E7;
     background-color: #2d2d2d;
     margin: 0;
-    padding: 10px;
+    padding: 10px 120px 10px 120px;
     text-decoration: none;
-    font-family: 'Arial Black';
+    font-family: 'Open Sans Bold';
+    font-size: 22.5px;
+    letter-spacing: 10px;
 }
 
 nav a:hover {
