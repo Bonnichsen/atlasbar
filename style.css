@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -5,8 +9,7 @@
     background-image: url(/splash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
     top: 0;
     left: 0;
     right: 0;
@@ -19,22 +22,14 @@
 }
 
 #title {
-    flex-wrap: nowrap;
-    /*
-    font-family: 'Arial Black';
-    font-size: 7vw;
-    color: #97291A;
-     -webkit-text-stroke: 1px black;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;*/
+    text-align: right;
+    width: 100%;
 }
 
 #title img {
     width: 60%;
+    margin-bottom: 30px;
+    text-align: right;
 }
 
 #nav_menu {
@@ -48,16 +43,36 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .column_left {
     flex-grow: 90;
     flex-basis: 200px;
-    padding: 100px;
     height: 200px;
     background-color: #2d2d2d;
     opacity: 0.9;
 }
+
+
+/* ----- YOUTUBE VIDEO -----*/
+
+.hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 25px;
+}
+
+
+/*------ YOUTUBE VIDEO SLUT -----*/
 
 .column_right {
     flex-grow: 1;
