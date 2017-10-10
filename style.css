@@ -1,0 +1,149 @@
+sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    border: solid black 3px;
+    padding: 50px;
+}
+
+
+/*--------- NAVIGATION MENU -------*/
+
+nav {
+    background-color: #29484C;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #29484C;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    background-color: #29484C;
+    display: inline-block;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #F7F0E7;
+    background-color: #29484C;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Russo One';
+}
+
+nav a:hover {
+    background-color: #358287;
+}
+
+
+/*--------- DROPDOWN MENU ----------*/
+
+.dropbtn {
+    background-color: #29484C;
+    color: #F7F0E7;
+    padding: 16px;
+    width: 248.5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Russo One';
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
+/*------ DROPDOWN CONTAINER -------*/
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    background-color: #29484C;
+}
+
+.dropdown ul {
+    background-color: #29484C;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+/*-------- DROPDOWN INDHOLD -------*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #358287;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #F7F0E7;
+    padding: 10px;
+    width: 225px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Russo One';
+    background-color: #358287;
+    border: 2px solid #358287;
+}
+
+.dropdown-content li {
+    list-style-type: none;
+    background-color: #358287;
+}
+
+.dropdown-content a:hover {
+    background-color: #7FC2B9;
+    border: 2px solid #29484C;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #358287;
+}
+
+
+/*-------- Media Queries ---------- */
+
+@media all and (max-width: 805px) {
+    nav ul {
+        display: none;
+    }
+    nav select {
+        display: inline-block;
+    }
+    body {
+        margin-top: 80px;
+    }
+}
+
+@media all and (min-width: 805px) {
+    .dropdown {
+        display: none;
+    }
+}
