@@ -53,19 +53,21 @@ body {
 .column_wide {
     flex-grow: 2;
     flex-basis: 200px;
-    padding: 5px 25px 5px 25px;
+    padding: 2px 25px 2px 25px;
     background-color: #2d2d2d;
     opacity: 0.9;
 }
 
 .column_wide p {
     color: #F7F0E7;
+    font-family: 'Open Sans';
     text-align: center;
     opacity: 1;
 }
 
 .column_wide h2 {
     color: #F7F0E7;
+    font-family: 'Open Sans';
     text-align: center;
     opacity: 1;
 }
@@ -77,19 +79,21 @@ body {
     flex-grow: 1;
     flex-basis: 100px;
     margin-left: 20px;
-    padding: 25px;
+    padding: 2px 25px 2px 25px;
     background-color: #2d2d2d;
     opacity: 0.9;
 }
 
 .column_narrow p {
     color: #F7F0E7;
+    font-family: 'Open Sans';
     text-align: center;
     opacity: 1;
 }
 
 .column_narrow h2 {
     color: #F7F0E7;
+    font-family: 'Open Sans';
     text-align: center;
     opacity: 1;
 }
@@ -99,7 +103,7 @@ body {
 
 #footer {
     margin-top: 20px;
-    padding: 10px;
+    padding: 1px;
     flex-wrap: nowrap;
     background-color: #2d2d2d;
     opacity: 0.9;
