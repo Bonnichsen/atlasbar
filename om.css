@@ -128,7 +128,6 @@ iframe {
 }
 
 #footer img {
-    opacity: 1;
     filter: invert(100%);
     margin: 6px 4px 6px 4px;
     vertical-align: middle;
@@ -138,8 +137,14 @@ iframe {
     color: #F7F0E7;
     font-family: 'Open Sans';
     text-align: left;
-    opacity: 1;
     margin-left: 10px;
+    margin-right: 48vw;
+}
+
+#footer h3 {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    font-size: 15px;
 }
 
 
