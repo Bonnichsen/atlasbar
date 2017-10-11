@@ -68,7 +68,11 @@ iframe {
     margin: 20px;
     opacity: 1;
     color: #2d2d2d;
-    position: center;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
