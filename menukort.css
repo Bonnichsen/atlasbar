@@ -136,7 +136,8 @@ nav a {
     background-color: #2d2d2d;
     margin: 1vw 5vw 1vw 5vw;
     text-decoration: none;
-    font-family: 'Open Sans Bold';
+    font-family: 'Open Sans';
+    font-weight: bold;
     font-size: 1.5vw;
     letter-spacing: 1vw;
     text-align: center;
@@ -157,6 +158,7 @@ nav a:hover {
     border: none;
     cursor: pointer;
     font-family: 'Open Sans';
+    font-weight: bold;
     font-size: 1.5em;
     text-align: left;
 }
