@@ -62,11 +62,9 @@ body {
 .column_wide h2 {}
 
 column_wide iframe {
-    position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 560px;
+    display: block;
+    margin: 0 auto;
 }
 
 
