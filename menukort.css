@@ -49,8 +49,8 @@ body {
 /*------- COLUMN 1 ------*/
 
 .column_wide {
-    flex-grow: 2;
-    flex-basis: 200px;
+    flex-grow: 1;
+    flex-basis: 100px;
     padding: 20px;
     background-color: #2d2d2d;
     opacity: 0.9;
@@ -59,6 +59,15 @@ body {
 .column_wide p {}
 
 .column_wide h2 {}
+
+.column_wide h3 {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+
+}
+
 
 
 /*------- COLUMN 2 ------*/
