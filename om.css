@@ -20,7 +20,7 @@ body {
 #content {
     flex-grow: 1;
     flex-basis: 200px;
-    margin: 2% 10% 10% 10%;
+    margin: 1% 10% 1% 10%;
 }
 
 #title {
