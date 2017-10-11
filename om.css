@@ -51,7 +51,6 @@ body {
 .column_wide {
     flex-grow: 1;
     flex-basis: 200px;
-    padding: 20px 20px 15px 20px;
     background-color: #2d2d2d;
     opacity: 0.9;
 
@@ -61,10 +60,10 @@ body {
 
 .column_wide h2 {}
 
-column_wide iframe {
+iframe {
     width: 560px;
     display: block;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 
