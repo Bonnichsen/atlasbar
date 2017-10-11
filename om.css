@@ -61,10 +61,9 @@ body {
 
 
 iframe {
-    width: 560px;
+    max-width:560px;
     display: block;
     margin: 20px;
-    opacity: 1;
 }
 
 
@@ -78,6 +77,7 @@ iframe {
     padding: 20px 25px 20px 20px;
     background-color: #2d2d2d;
     opacity: 0.9;
+    text-align: center;
 }
 
 .column_narrow_images h2 {
