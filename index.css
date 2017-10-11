@@ -153,11 +153,12 @@ nav a {
     display: block;
     color: #F7F0E7;
     background-color: #2d2d2d;
-    margin: 1vw 7.8vw 1vw 2.2vw;
+    margin: 1vw 5vw 1vw 5vw;
     text-decoration: none;
     font-family: 'Open Sans Bold';
     font-size: 1.5vw;
     letter-spacing: 1vw;
+    text-align: center;
 }
 
 nav a:hover {
