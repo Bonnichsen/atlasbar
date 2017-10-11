@@ -65,7 +65,6 @@ body {
 iframe {
     max-width: 560px;
     display: block;
-    margin: 20px;
     opacity: 1;
     color: #2d2d2d;
     position: absolute;
