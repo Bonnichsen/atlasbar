@@ -68,6 +68,7 @@ iframe {
 }
 
 
+
 /*------- COLUMN 3 ------*/
 
 .column_narrow_images {
@@ -89,6 +90,11 @@ iframe {
     width: 100%;
     border: 3px solid darkred;
 }
+
+.column_narrow_images p {
+    color:#F7F0E7;
+}
+
 
 #footer {
     margin-top: 20px;
