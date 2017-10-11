@@ -49,7 +49,7 @@ body {
 /*------- COLUMN 1 ------*/
 
 .column_wide {
-    flex-grow: 2;
+    flex-grow: 1;
     flex-basis: 200px;
     padding: 20px;
     background-color: #2d2d2d;
@@ -60,21 +60,6 @@ body {
 
 .column_wide h2 {}
 
-
-/*------- COLUMN 2 ------*/
-
-.column_narrow {
-    flex-grow: 1;
-    flex-basis: 100px;
-    margin-left: 20px;
-    padding: 20px;
-    background-color: #2d2d2d;
-    opacity: 0.9;
-}
-
-.column_narrow p {}
-
-.column_narrow h2 {}
 
 
 /*------- COLUMN 3 ------*/
