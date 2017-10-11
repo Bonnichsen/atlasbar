@@ -66,11 +66,60 @@ body {
     color: #F7F0E7;
     font-family: 'Open Sans';
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    margin: auto;
+    font-size: 2vw;
 
 }
 
 
+/*--------menukort-------*/
+
+.food_dish {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.food_info {
+    padding: 10px;
+
+}
+
+.food_name {
+    margin-bottom: 10px;
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    font-size: 1.2vw;
+}
+
+
+.food_description {
+    color: #c6beb5;
+    font-family: 'Open Sans';
+    font-size: 0.9vw;
+}
+
+.food_price {
+    font-family: 'Open Sans';
+    color: #F7F0E7;
+    font-size: 1.2vw;
+    padding: 10px;
+
+}
+
+
+
+.column_wide p {}
+
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 
 /*------- COLUMN 2 ------*/
 
