@@ -61,7 +61,6 @@ body {
 .column_wide h2 {}
 
 
-
 /*------- COLUMN 3 ------*/
 
 .column_narrow_images {
@@ -99,6 +98,7 @@ nav {
     background-color: #2d2d2d;
     position: relative;
     width: 100%;
+    text-align: center;
 }
 
 nav ul {
@@ -106,7 +106,6 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 nav li {
