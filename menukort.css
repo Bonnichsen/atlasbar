@@ -34,10 +34,23 @@ body {
     text-align: left;
 }
 
+
+/*------ NAV MENU IN CONTENT -----*/
+
 #nav_menu {
     flex-wrap: nowrap;
     background-color: #2d2d2d;
     opacity: 0.9;
+}
+
+.urten_nav {
+    margin: 0;
+    margin: 0vw 6vw 0vw 6vw;
+}
+
+.urten_nav img {
+    width: 4.5vw;
+    vertical-align: middle;
 }
 
 #mid_section {
@@ -69,7 +82,6 @@ body {
     text-align: left;
     margin: auto;
     font-size: 2vw;
-
 }
 
 
@@ -78,12 +90,10 @@ body {
 .food_dish {
     display: flex;
     justify-content: space-between;
-
 }
 
 .food_info {
     padding: 10px;
-
 }
 
 .food_name {
@@ -92,7 +102,6 @@ body {
     font-family: 'Open Sans';
     font-size: 1.2vw;
 }
-
 
 .food_description {
     color: #c6beb5;
@@ -105,13 +114,9 @@ body {
     color: #F7F0E7;
     font-size: 1.2vw;
     padding: 10px;
-
 }
 
-
-
 .column_wide p {}
-
 
 p {
     display: block;
@@ -120,6 +125,7 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+
 
 /*------- COLUMN 2 ------*/
 
@@ -159,12 +165,33 @@ p {
     border: 3px solid darkred;
 }
 
+
+/*------- FOOTER -------*/
+
 #footer {
     margin-top: 20px;
-    padding: 60px;
+    padding-left: 6px;
+    display: flex;
     flex-wrap: nowrap;
     background-color: #2d2d2d;
     opacity: 0.9;
+    align-items: center;
+    height: 80px;
+}
+
+#footer img {
+    opacity: 1;
+    filter: invert(100%);
+    margin: 6px 4px 6px 4px;
+    vertical-align: middle;
+}
+
+#footer p {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    text-align: left;
+    opacity: 1;
+    margin-left: 10px;
 }
 
 
@@ -177,34 +204,30 @@ nav {
     text-align: center;
 }
 
-nav ul {
-    background-color: #2d2d2d;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 nav li {
     background-color: #2d2d2d;
     display: inline-block;
-    margin: 0;
+    margin: 0vw 4vw 0vw 4vw;
+    vertical-align: middle;
 }
 
 nav a {
-    display: block;
+    display: inline-block;
     color: #F7F0E7;
     background-color: #2d2d2d;
-    margin: 1vw 5vw 1vw 5vw;
+    margin: 1vw 7.6vw;
     text-decoration: none;
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 1.2vw;
     letter-spacing: 0.3vw;
     opacity: 1;
+    vertical-align: middle;
 }
 
 nav a:hover {
     color: darkred;
+    opacity: 1;
 }
 
 
@@ -218,7 +241,6 @@ nav a:hover {
     border: none;
     cursor: pointer;
     font-family: 'Open Sans';
-    font-weight: bold;
     font-size: 1.5em;
     text-align: left;
 }
@@ -235,14 +257,6 @@ nav a:hover {
     top: 0;
     margin: 0;
     background-color: #2d2d2d;
-}
-
-.dropdown ul {
-    background-color: #2d2d2d;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
 }
 
 
@@ -288,8 +302,8 @@ nav a:hover {
 
 /*-------- Media Queries ---------- */
 
-@media all and (max-width: 825px) {
-    nav ul {
+@media all and (max-width: 828px) {
+    nav {
         display: none;
     }
     nav select {
@@ -300,7 +314,7 @@ nav a:hover {
     }
 }
 
-@media all and (min-width: 825px) {
+@media all and (min-width: 828px) {
     .dropdown {
         display: none;
     }
