@@ -1,14 +1,16 @@
 body {
     margin: 0;
+    background-image: url(img/splash_right.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
 }
 
 #sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(img/splash_new.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 0;
     top: 0;
     left: 0;
@@ -53,19 +55,15 @@ body {
     flex-basis: 200px;
     background-color: #2d2d2d;
     opacity: 0.9;
-
 }
 
 .column_wide p {}
 
-
-
 iframe {
-    max-width:560px;
+    max-width: 560px;
     display: block;
     margin: 20px;
 }
-
 
 
 /*------- COLUMN 3 ------*/
@@ -81,7 +79,7 @@ iframe {
 }
 
 .column_narrow_images h2 {
-    color:#F7F0E7;
+    color: #F7F0E7;
     font-family: 'open sans';
 }
 
@@ -97,10 +95,9 @@ iframe {
 }
 
 .column_narrow_images p {
-    color:#F7F0E7;
+    color: #F7F0E7;
     font-family: 'open sans';
 }
-
 
 #footer {
     margin-top: 20px;
@@ -141,9 +138,9 @@ nav a {
     text-decoration: none;
     font-family: 'Open Sans';
     font-weight: bold;
-    font-size: 1.5vw;
-    letter-spacing: 1vw;
-    text-align: center;
+    font-size: 1.2vw;
+    letter-spacing: 0.3vw;
+    opacity: 1;
 }
 
 nav a:hover {
