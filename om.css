@@ -64,8 +64,7 @@ body {
 .column_wide {
     flex-grow: 1;
     flex-basis: 200px;
-    background-color: #2d2d2d;
-    opacity: 0.9;
+    background-color: rgba(45, 45, 45, 0.9);
 
 }
 
