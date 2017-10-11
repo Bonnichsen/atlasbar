@@ -53,7 +53,17 @@ body {
     vertical-align: middle;
 }
 
-#mid_section {
+
+/*------- MID SECTION -----*/
+
+#mid_section_left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#mid_section_right {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -75,7 +85,7 @@ body {
 
 .column_wide h2 {}
 
-.column_wide h3 {
+h3 {
     color: #F7F0E7;
     font-family: 'Open Sans';
     font-weight: bold;
