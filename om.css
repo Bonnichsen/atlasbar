@@ -58,7 +58,7 @@ body {
 
 .column_wide p {}
 
-.column_wide h2 {}
+
 
 iframe {
     width: 560px;
@@ -80,6 +80,11 @@ iframe {
     opacity: 0.9;
 }
 
+.column_narrow_images h2 {
+    color:#F7F0E7;
+    font-family: 'open sans';
+}
+
 .top img {
     width: 100%;
     margin-bottom: 20px;
@@ -93,6 +98,7 @@ iframe {
 
 .column_narrow_images p {
     color:#F7F0E7;
+    font-family: 'open sans';
 }
 
 
