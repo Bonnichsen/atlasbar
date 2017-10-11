@@ -54,11 +54,20 @@ body {
     padding: 20px 20px 15px 20px;
     background-color: #2d2d2d;
     opacity: 0.9;
+
 }
 
 .column_wide p {}
 
 .column_wide h2 {}
+
+column_wide iframe {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 /*------- COLUMN 3 ------*/
