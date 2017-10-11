@@ -72,6 +72,13 @@ body {
     opacity: 1;
 }
 
+.column_wide h3 {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    text-align: center;
+    opacity: 1;
+}
+
 
 /*------- COLUMN 2 ------*/
 
@@ -91,13 +98,12 @@ body {
     opacity: 1;
 }
 
-.column_narrow h2 {
+.column_narrow h3 {
     color: #F7F0E7;
     font-family: 'Open Sans';
     text-align: center;
     opacity: 1;
 }
-
 
 /*------- FOOTER -------*/
 
