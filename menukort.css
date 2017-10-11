@@ -39,8 +39,7 @@ body {
 
 #nav_menu {
     flex-wrap: nowrap;
-    background-color: #2d2d2d;
-    opacity: 0.9;
+    background-color: rgba(45, 45, 45, 0.9);
 }
 
 .urten_nav {
@@ -77,11 +76,16 @@ body {
     flex-grow: 1;
     flex-basis: 100px;
     padding: 20px;
-    background-color: #2d2d2d;
-    opacity: 0.9;
+    background-color: rgba(45, 45, 45, 0.9);
 }
 
-.column_wide p {}
+.column_wide p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 
 .column_wide h2 {}
 
@@ -101,7 +105,6 @@ h4 {
     text-align: left;
     margin: auto;
     font-size: 20px;
-
 }
 
 
@@ -136,13 +139,6 @@ h4 {
     padding: 10px;
 }
 
-.column_wide p {
-    display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
 
 /*------- COLUMN 2 ------*/
 
@@ -164,6 +160,7 @@ h4 {
 
 .column_narrow h2 {}
 
+
 /*------- FOOTER -------*/
 
 #footer {
@@ -177,7 +174,6 @@ h4 {
 }
 
 #footer img {
-    opacity: 1;
     filter: invert(100%);
     margin: 6px 4px 6px 4px;
     vertical-align: middle;
@@ -198,18 +194,15 @@ h4 {
 }
 
 
-
 /*--------- NAVIGATION MENU -------*/
 
 nav {
-    background-color: #2d2d2d;
     position: relative;
     width: 100%;
     text-align: center;
 }
 
 nav li {
-    background-color: #2d2d2d;
     display: inline-block;
     margin: 0vw 4vw 0vw 4vw;
     vertical-align: middle;
@@ -218,20 +211,17 @@ nav li {
 nav a {
     display: inline-block;
     color: #F7F0E7;
-    background-color: #2d2d2d;
     margin: 1vw 7.6vw;
     text-decoration: none;
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 1.2vw;
     letter-spacing: 0.3vw;
-    opacity: 1;
     vertical-align: middle;
 }
 
 nav a:hover {
     color: darkred;
-    opacity: 1;
 }
 
 
