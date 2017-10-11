@@ -51,7 +51,7 @@ body {
 .column_wide {
     flex-grow: 1;
     flex-basis: 200px;
-    padding: 20px 20px 14px 20px;
+    padding: 20px 20px 15px 20px;
     background-color: #2d2d2d;
     opacity: 0.9;
 }
