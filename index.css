@@ -145,6 +145,14 @@ body {
     text-align: left;
     opacity: 1;
     margin-left: 10px;
+    margin-right: 48vw;
+}
+
+#footer h3 {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    opacity: 1;
 }
 
 
