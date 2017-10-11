@@ -91,27 +91,7 @@ body {
 }
 
 
-/*------- COLUMN 3 ------*/
-
-.column_narrow_images {
-    flex-grow: 1;
-    flex-basis: 100px;
-    margin-left: 20px;
-    padding: 20px 25px 20px 20px;
-    background-color: #2d2d2d;
-    opacity: 0.9;
-}
-
-.top img {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 3px solid darkred;
-}
-
-.bottom img {
-    width: 100%;
-    border: 3px solid darkred;
-}
+/*------- FOOTER -------*/
 
 #footer {
     margin-top: 20px;
@@ -119,7 +99,6 @@ body {
     flex-wrap: nowrap;
     background-color: #2d2d2d;
     opacity: 0.9;
-    text-align: right;
 }
 
 #footer img {
@@ -148,7 +127,7 @@ nav ul {
 nav li {
     background-color: #2d2d2d;
     display: inline-block;
-    margin: 0;
+    margin: 0px 20px 0px 20px;
 }
 
 nav a {
@@ -159,9 +138,8 @@ nav a {
     text-decoration: none;
     font-family: 'Open Sans';
     font-weight: bold;
-    font-size: 1.5vw;
-    letter-spacing: 1vw;
-    text-align: center;
+    font-size: 1.2vw;
+    letter-spacing: 0.3vw;
 }
 
 nav a:hover {
