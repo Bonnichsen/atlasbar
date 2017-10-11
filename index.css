@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-image: url(img/splash_right.jpg);
-    background-size: cover;
+    background-attachment: relative;
     background-repeat: no-repeat;
 }
 
@@ -18,7 +18,7 @@ body {
 #content {
     flex-grow: 1;
     flex-basis: 200px;
-    margin: 2% 10% 2% 10%;
+    margin: 1% 10% 1% 10%;
 }
 
 #title {
@@ -27,8 +27,8 @@ body {
 }
 
 #title img {
-    width: 60%;
-    margin-bottom: 30px;
+    width: 50%;
+    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -113,7 +113,7 @@ body {
 
 #footer {
     margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
     flex-wrap: nowrap;
     background-color: #2d2d2d;
     opacity: 0.9;
