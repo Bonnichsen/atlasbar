@@ -34,7 +34,9 @@ body {
     text-align: left;
 }
 
+
 /*------ NAV MENU IN CONTENT -----*/
+
 #nav_menu {
     flex-wrap: nowrap;
     background-color: #2d2d2d;
@@ -50,7 +52,6 @@ body {
     width: 4.5vw;
     vertical-align: middle;
 }
-
 
 #mid_section {
     display: flex;
@@ -173,7 +174,6 @@ nav a {
     font-weight: bold;
     font-size: 1.2vw;
     letter-spacing: 0.3vw;
-    opacity: 1;
     vertical-align: middle;
 }
 
