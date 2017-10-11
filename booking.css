@@ -156,7 +156,7 @@ nav a:hover {
     width: 113px;
     border: none;
     cursor: pointer;
-    font-family: 'Arial Black';
+    font-family: 'Open Sans Bold';
     font-size: 1.5em;
     text-align: left;
 }
@@ -200,7 +200,7 @@ nav a:hover {
     width: 89px;
     text-decoration: none;
     display: block;
-    font-family: 'Russo One';
+    font-family: 'Open Sans';
     background-color: darkred;
     border: 2px solid darkred;
 }
