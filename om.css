@@ -54,15 +54,20 @@ body {
     flex-grow: 1;
     flex-basis: 200px;
     background-color: #2d2d2d;
-    opacity: 1;
+    opacity: 0.9;
+    position: center;
 }
 
-.column_wide p {}
+.column_wide p {
+
+}
 
 iframe {
     max-width: 560px;
     display: block;
     margin: 20px;
+    opacity: 1;
+    color: #2d2d2d;
 }
 
 
@@ -74,7 +79,7 @@ iframe {
     margin-left: 20px;
     padding: 20px 25px 20px 20px;
     background-color: #2d2d2d;
-    opacity: 1;
+    opacity: 0.9;
     text-align: center;
 }
 
@@ -97,6 +102,7 @@ iframe {
 .column_narrow_images p {
     color: #F7F0E7;
     font-family: 'open sans';
+    opacity: 1;
 }
 
 
