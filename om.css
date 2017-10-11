@@ -99,12 +99,32 @@ iframe {
     font-family: 'open sans';
 }
 
+
+/*------- FOOTER -------*/
+
 #footer {
     margin-top: 20px;
-    padding: 60px;
+    display: flex;
     flex-wrap: nowrap;
     background-color: #2d2d2d;
     opacity: 0.9;
+    align-items: center;
+    height: 80px;
+}
+
+#footer img {
+    opacity: 1;
+    filter: invert(100%);
+    margin: 6px 4px 6px 4px;
+    vertical-align: middle;
+}
+
+#footer p {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    text-align: left;
+    opacity: 1;
+    margin-left: 10px;
 }
 
 
