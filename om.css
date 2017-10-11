@@ -58,13 +58,14 @@ body {
 
 .column_wide p {}
 
-.column_wide h2 {}
+
 
 iframe {
-    width: 560px;
+    max-width:560px;
     display: block;
     margin: 20px;
 }
+
 
 
 /*------- COLUMN 3 ------*/
@@ -76,6 +77,12 @@ iframe {
     padding: 20px 25px 20px 20px;
     background-color: #2d2d2d;
     opacity: 0.9;
+    text-align: center;
+}
+
+.column_narrow_images h2 {
+    color:#F7F0E7;
+    font-family: 'open sans';
 }
 
 .top img {
@@ -88,6 +95,12 @@ iframe {
     width: 100%;
     border: 3px solid darkred;
 }
+
+.column_narrow_images p {
+    color:#F7F0E7;
+    font-family: 'open sans';
+}
+
 
 #footer {
     margin-top: 20px;
