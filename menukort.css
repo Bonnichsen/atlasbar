@@ -69,6 +69,17 @@ body {
     margin-top: 20px;
 }
 
+/*---------img top og buttom-----*/
+
+.img_top {
+    background-color: rgba(45, 45, 45, 0.9);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
 
 /*------- COLUMN 1 ------*/
 
@@ -99,13 +110,6 @@ h3 {
     padding: 10px;
 }
 
-#vegi,
-#fish,
-#meat {
-    margin-top: 20px;
-    padding: 0 0 0 10px;
-    background-color: rgba(45, 45, 45, 0.9);
-}
 
 h4 {
     color: #F7F0E7;
@@ -199,6 +203,19 @@ h4 {
     margin-right: 30vw;
 }
 
+#vegi,
+#fish,
+#meat {
+    margin-top: 20px;
+    padding: 0 0 0 10px;
+    background-color: rgba(45, 45, 45, 0.9);
+}
+
+.btn_left a:hover,
+.btn_middle a:hover,
+.btn_right a:hover {
+    color: darkred;
+}
 
 /*--------menukortliste-------*/
 
