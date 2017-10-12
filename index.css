@@ -154,6 +154,10 @@ body {
     display: flex;
     text-align: center;
     filter: invert(100%);
+    justify-content: flex-end;
+}
+.footer_right img{
+    width: 30%;
 }
 
 
