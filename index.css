@@ -122,7 +122,6 @@ body {
     background-color: rgba(45, 45, 45, 0.9);
     align-items: center;
     height: 80px;
-    justify-content: space-between;
 }
 
 #footer img {
@@ -148,10 +147,13 @@ body {
     display: flex;
 }
 
+
+/*-------- TRIP ADVISOR ---------*/
+
 .footer_right {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
+    text-align: center;
+    filter: invert(100%);
 }
 
 
