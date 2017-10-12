@@ -145,39 +145,42 @@ h4 {
     background-color: rgba(45, 45, 45, 0.9);
     text-align: center;
     margin-top: 20px;
+    padding: 0 25vw 0 25vw;
 }
 
 .btn_left {
     margin-left: 17vw;
-    max-width: 123px;
-    font-family: 'Open Sans';
-    color: #F7F0E7;
-
-}
-
-.btn_middle {
-    max-width: 96px;
-    font-family: 'Open Sans';
-    color: #F7F0E7;
 
 }
 
 .btn_right {
     margin-right: 17vw;
-    max-width: 123px;
-    font-family: 'Open Sans';
-    color: #F7F0E7;
-
 }
 
 .menukort_intro_middle p {
     font-family: 'Open Sans';
     font-style: italic;
     color: #F7F0E7;
+    padding: 10px 0 10px 0;
+}
 
+
+.menukort_buttom {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(45, 45, 45, 0.9);
+    font-family: 'Open Sans';
+    color: #F7F0E7;
 
 }
 
+.menukort_buttom .btn_left {
+    margin-left: 30vw;
+}
+
+.menukort_buttom .btn_right {
+    margin-right: 30vw;
+}
 
 
 
