@@ -35,6 +35,8 @@ body {
     text-align: left;
 }
 
+/*----- ANIMATED ICON ------*/
+
 
 /*------ NAV MENU IN CONTENT -----*/
 
@@ -170,9 +172,8 @@ body {
 .footer_right img {
     width: 90px;
 }
-
-
 /*--------- NAVIGATION MENU -------*/
+
 
 nav {
     background-color: rgba(45, 45, 45);
