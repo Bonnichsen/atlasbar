@@ -99,7 +99,9 @@ h3 {
     padding: 10px;
 }
 
-.h3_left {
+#vegi,
+#fish,
+#meat {
     margin-top: 20px;
     padding: 0 0 0 10px;
     background-color: rgba(45, 45, 45, 0.9);
@@ -114,8 +116,22 @@ h4 {
     font-size: 20px;
 }
 
+.price {
+    font-size: 14px;
+    font-weight: normal;
+}
 
-/*--------menukort-------*/
+
+.menukort_btn a {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+/*--------menukortlinks-------*/
 
 .menukort_intro_top {
     flex-basis:
@@ -136,6 +152,7 @@ h4 {
     background-color: rgba(45, 45, 45, 0.9);
     font-family: 'Open Sans';
     color: #F7F0E7;
+    padding: 10px 0 10px 0;
 
 
 }
@@ -183,7 +200,7 @@ h4 {
 }
 
 
-
+/*--------menukortliste-------*/
 
 .food_dish {
     display: flex;
@@ -212,6 +229,11 @@ h4 {
     color: #F7F0E7;
     font-size: 1.2vw;
     padding: 10px;
+}
+
+.food_category {
+    display: flex;
+    justify-content: space-between;
 }
 
 
