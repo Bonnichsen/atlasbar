@@ -68,8 +68,8 @@ body {
 /*------- COLUMN 1 ------*/
 
 .column_wide {
-    flex-grow: 2;
-    flex-basis: 200px;
+    flex-grow: 4;
+    flex-basis: 300px;
     padding: 2px 25px 2px 25px;
     background-color: rgba(45, 45, 45, 0.9);
     margin: 10px 0px;
@@ -94,11 +94,25 @@ body {
 }
 
 
+/*-- SPACE BETWEEN COLUMN --*/
+
+.space_between {
+    width: 20px;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 828px) {
+    .space_between {
+        background-color: rgba(45, 45, 45, 0.9)
+    }
+}
+
+
 /*------- COLUMN 2 ------*/
 
 .column_narrow {
     flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 244px;
     margin: 10px 0px;
     padding: 2px 25px 2px 25px;
     background-color: rgba(45, 45, 45, 0.9);
@@ -114,10 +128,6 @@ body {
     color: #F7F0E7;
     font-family: 'Open Sans';
     text-align: center;
-}
-
-.space_between {
-    width: 20px;
 }
 
 
