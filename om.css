@@ -57,7 +57,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    align-items: flex-start;
+    height: 100%;
 }
 
 
@@ -69,6 +69,7 @@ body {
     margin-right: 10px;
     background-color: rgba(45, 45, 45, 0.9);
     overflow: hidden;
+
 }
 
 .column_wide p {}
@@ -77,6 +78,7 @@ body {
     display: flex;
     justify-content: center;
     height: 100%;
+    width: 100%;
 }
 
 .column_wide iframe {
