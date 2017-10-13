@@ -35,6 +35,7 @@ body {
     text-align: left;
 }
 
+
 /*----- ANIMATED ICON ------*/
 
 
@@ -43,6 +44,7 @@ body {
 #nav_menu {
     flex-wrap: nowrap;
     background-color: rgba(45, 45, 45, 0.9);
+    margin: 0px 0px 10px 0px;
 }
 
 .urten_nav {
@@ -59,7 +61,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin: 10px 0px;
 }
 
 
@@ -70,6 +72,7 @@ body {
     flex-basis: 200px;
     padding: 2px 25px 2px 25px;
     background-color: rgba(45, 45, 45, 0.9);
+    margin: 10px 0px;
 }
 
 .column_wide p {
@@ -96,7 +99,7 @@ body {
 .column_narrow {
     flex-grow: 1;
     flex-basis: 100px;
-    margin-left: 20px;
+    margin: 10px 0px;
     padding: 2px 25px 2px 25px;
     background-color: rgba(45, 45, 45, 0.9);
 }
@@ -113,11 +116,15 @@ body {
     text-align: center;
 }
 
+.space_between {
+    width: 20px;
+}
+
 
 /*------- FOOTER -------*/
 
 #footer {
-    margin-top: 20px;
+    margin: 10px 0px 0px 0px;
     padding: 0px 6px;
     display: flex;
     flex-wrap: wrap;
@@ -172,8 +179,9 @@ body {
 .footer_right img {
     width: 90px;
 }
-/*--------- NAVIGATION MENU -------*/
 
+
+/*--------- NAVIGATION MENU -------*/
 
 nav {
     background-color: rgba(45, 45, 45);
