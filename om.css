@@ -57,6 +57,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+    align-items: flex-start;
 }
 
 
@@ -65,21 +66,29 @@ body {
 .column_wide {
     flex-grow: 1;
     flex-basis: 300px;
-	margin-right: 10px ;
+    margin-right: 10px;
     background-color: rgba(45, 45, 45, 0.9);
+    overflow: hidden;
 }
 
 .column_wide p {}
 
-iframe {
-    max-width: 560px;
-    display: block;
-    opacity: 1;
-    color: #2d2d2d;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.video_content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
+
+.column_wide iframe {
+    width: 100%;
+    align-self: center;
+}
+
+
+/***
+
+
+} ***/
 
 
 /*------- COLUMN 3 ------*/
@@ -135,9 +144,7 @@ iframe {
     vertical-align: middle;
 }
 
-#footer p {
-
-}
+#footer p {}
 
 #footer h3 {
     color: #F7F0E7;
@@ -157,13 +164,14 @@ iframe {
     font-family: 'Open Sans';
 }
 
-.footer_middle_left
-{
+.footer_middle_left {
     flex-grow: 90;
     color: #F7F0E7;
     font-family: 'Open Sans';
     margin-left: 10px;
 }
+
+
 /*-------- TRIP ADVISOR ---------*/
 
 .footer_right {
@@ -172,9 +180,11 @@ iframe {
     margin-right: 10px;
     filter: invert(100%);
 }
-.footer_right img{
+
+.footer_right img {
     width: 90px;
 }
+
 
 /*--------- NAVIGATION MENU -------*/
 
