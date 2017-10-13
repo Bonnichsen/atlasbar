@@ -236,12 +236,12 @@ header {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.urten_nav {
+.urten_nav_drop {
     margin: 0;
     width: 100%;
 }
 
-.urten_nav img {
+.urten_nav_drop img {
     width: 50px;
     vertical-align: middle;
     padding: 0px 0px 12px 0px;
@@ -345,6 +345,9 @@ header {
 @media all and (max-width: 828px) {
     nav {
         display: none;
+    }
+    #title img {
+        margin-top: 90px;
     }
 }
 
