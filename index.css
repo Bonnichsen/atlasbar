@@ -229,6 +229,7 @@ nav a:hover {
 /*---- DROP DOWN MENU ---*/
 
 header {
+    position: fixed;
     width: 100%;
     background-color: rgb(45, 45, 45);
     height: 55px;
