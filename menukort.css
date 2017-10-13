@@ -20,7 +20,7 @@ body {
 #content {
     flex-grow: 1;
     flex-basis: 200px;
-    margin: 1% 10% 1% 10%;
+    margin: 0% 10% 1% 10%;
 }
 
 #title {
@@ -110,7 +110,6 @@ body {
     -webkit-margin-end: 0px;
 }
 
-
 h3 {
     color: #F7F0E7;
     font-family: 'Open Sans';
@@ -160,18 +159,22 @@ h4 {
 
 .menukort_btn {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: rgba(45, 45, 45, 0.9);
     font-family: 'Open Sans';
     color: #F7F0E7;
-    padding: 10px 0 10px 0;
+    padding: 1vw;
+}
+
+.menukort_btn a {
+    padding: 3vw;
 }
 
 .menukort_intro_middle {
     max-width: ;
     background-color: rgba(45, 45, 45, 0.9);
     text-align: center;
-    padding: 0 25vw 0 25vw;
+    padding: 0.7vw 20vw;
     margin: 0;
 }
 
@@ -187,7 +190,7 @@ h4 {
     font-family: 'Open Sans';
     font-style: italic;
     color: #F7F0E7;
-    padding: 25px 0px;
+    padding: 1.5vw 0vw;
     margin: 0;
 }
 
@@ -211,7 +214,7 @@ h4 {
 #fish,
 #meat {
     margin: 10px 0px;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 1vw;
     background-color: rgba(45, 45, 45, 0.9);
 }
 
@@ -230,7 +233,7 @@ h4 {
 }
 
 .food_info {
-    padding: 10px;
+    padding: 1vw;
 }
 
 .food_name {
@@ -247,7 +250,7 @@ h4 {
 .food_price {
     font-family: 'Open Sans';
     color: #F7F0E7;
-    padding: 10px;
+    padding: 1vw;
 }
 
 .food_category {
@@ -279,6 +282,7 @@ h4 {
     padding: 20px 25px 20px 20px;
     background-color: rgba(45, 45, 45, 0.9);
 }
+
 .column_narrow_right {
     flex-grow: 1;
     flex-basis: 300px;
