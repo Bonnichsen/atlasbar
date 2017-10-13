@@ -59,14 +59,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
 }
 
 #mid_section_right {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
 }
 
 
@@ -77,7 +75,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 
@@ -86,6 +84,7 @@ body {
 .column_wide {
     flex-grow: 1;
     flex-basis: 100px;
+    margin: 10px 0px;
     padding: 20px;
     background-color: rgba(45, 45, 45, 0.9);
 }
@@ -129,19 +128,22 @@ h4 {
     font-family: 'Open Sans';
     font-weight: bold;
     text-decoration: none;
+    letter-spacing: 0.3vw;
 }
 
 
 /*--------menukortlinks-------*/
 
 .menukort_intro_top {
-    flex-basis:
+    margin: 0;
+    border-bottom: solid darkred 2px;
+    border-bottom-width: thick
 }
 
 .menukort_intro {
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin: 10px 0px;
 }
 
 .menukort_btn {
@@ -157,8 +159,8 @@ h4 {
     max-width: ;
     background-color: rgba(45, 45, 45, 0.9);
     text-align: center;
-    margin-top: 20px;
     padding: 0 25vw 0 25vw;
+    margin: 0;
 }
 
 .btn_left {
@@ -174,6 +176,7 @@ h4 {
     font-style: italic;
     color: #F7F0E7;
     padding: 10px 0 10px 0;
+    margin: 0;
 }
 
 .menukort_buttom {
@@ -195,7 +198,7 @@ h4 {
 #vegi,
 #fish,
 #meat {
-    margin-top: 20px;
+    margin: 10px 0px;
     padding: 0 0 0 10px;
     background-color: rgba(45, 45, 45, 0.9);
 }
@@ -244,12 +247,26 @@ h4 {
 }
 
 
+/*-- SPACE BETWEEN COLUMN --*/
+
+.space_between {
+    width: 20px;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 831px) {
+    .space_between {
+        background-color: rgba(45, 45, 45, 0.9);
+    }
+}
+
+
 /*------- COLUMN 2 ------*/
 
 .column_narrow {
     flex-grow: 1;
     flex-basis: 100px;
-    margin-left: 20px;
+    margin: 10px 0px;
     padding: 20px 25px 20px 20px;
     background-color: rgba(45, 45, 45, 0.9);
 }
