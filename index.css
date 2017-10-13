@@ -103,7 +103,7 @@ body {
 
 @media screen and (max-width: 828px) {
     .space_between {
-        background-color: rgba(45, 45, 45, 0.9)
+        background-color: rgba(45, 45, 45, 0.9);
     }
 }
 
@@ -225,70 +225,118 @@ nav a:hover {
 
 /*--------- DROPDOWN MENU ----------*/
 
-.dropbtn {
-    background-color: #2d2d2d;
-    color: #F7F0E7;
-    padding: 16px;
-    width: 113px;
-    border: none;
+
+/*---- DROP DOWN MENU ---*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    height: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.urten_nav_drop {
+    margin: 0;
+    width: 100%;
+}
+
+.urten_nav_drop img {
+    width: 50px;
+    vertical-align: middle;
+    padding: 0px 0px 12px 0px;
+}
+
+.container_drop {
+    margin: 0;
+    position: fixed;
+    padding: 8px 0px 0px 20px;
+    display: block;
     cursor: pointer;
-    font-family: 'Open Sans';
-    font-size: 1.5em;
-    text-align: left;
+    background-color: rgba(45, 45, 45, 0.9);
+    min-width: 200px;
+}
+
+.container_drop a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F7F0E7;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
 
-/*------ DROPDOWN CONTAINER -------*/
+/* Rotate first bar */
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: darkred;
+}
+
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+    background-color: darkred;
+}
+
+
+/* Rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: darkred;
+}
 
 .dropdown {
-    position: fixed;
-    display: inline-block;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: 0;
-    background-color: #2d2d2d;
+    display: none;
 }
 
 
-/*-------- DROPDOWN INDHOLD -------*/
+/* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: darkred;
-    min-width: 89px;
+    min-width: 160px;
+    width: 20px;
     z-index: 1;
 }
 
+
+/* Links inside the dropdown */
+
 .dropdown-content a {
     color: #F7F0E7;
-    padding: 10px;
-    width: 89px;
+    padding: 20px 0px 0px 5px;
     text-decoration: none;
     display: block;
     font-family: 'Open Sans';
-    background-color: darkred;
-    border: 2px solid darkred;
+    letter-spacing: 3px;
 }
 
-.dropdown-content li {
-    list-style-type: none;
-    background-color: #2d2d2d;
-}
+
+/* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    background-color: red;
-    border: 2px solid #2d2d2d;
+    color: darkred;
 }
 
-.dropdown:hover .dropdown-content {
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
     display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: darkred;
 }
 
 
@@ -298,16 +346,13 @@ nav a:hover {
     nav {
         display: none;
     }
-    nav select {
-        display: inline-block;
-    }
-    body {
-        margin-top: 80px;
+    #title img {
+        margin-top: 90px;
     }
 }
 
 @media all and (min-width: 828px) {
-    .dropdown {
+    header {
         display: none;
     }
 }
