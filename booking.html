@@ -10,33 +10,33 @@
 </head>
 
 
-    <header>
-        <nav><div class="container">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+<header>
 
-        <div class="dropdown">
-            <div id="myDropdown" class="dropdown-content">
-                <a href="menukort.html">MENU</a>
+        <div class="container_drop">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+
+            <div class="dropdown">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="menukort.html">MENU</a>
                     <a href="booking.html">BOOKING</a>
                     <a href="om.html">OM</a>
                     <a class="urten_nav" href="http://www.urtenvegan.dk" target="_blank"><img src="img/urten_logo_simple.png"></a>
+                </div>
             </div>
         </div>
-    </div>
-        </nav>
-            </header>
+</header>
+
 <body>
 
 
 
     <script>
-        $(".container").click(function() {
-            $(".container").toggleClass("change");
+        $(".container_drop").click(function() {
+            $(".container_drop").toggleClass("change");
             $(".dropdown").slideToggle();
         });
-
     </script>
 </body>
 
