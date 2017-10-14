@@ -30,6 +30,7 @@ body {
 
 #title img {
     width: 50%;
+    margin-top: 25px;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -55,6 +56,13 @@ body {
 
 /*------- MID SECTION -----*/
 
+#mid_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
 #mid_section_left {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +80,6 @@ body {
 
 .img_top {
     background-color: rgba(45, 45, 45, 0.9);
-    display: flex;
     justify-content: center;
     margin: 20px 0px;
 }
@@ -80,7 +87,7 @@ body {
 .img_top img {
     width: 23.5vw;
     height: 100%;
-    padding: 28px 18px;
+    padding: 2vw 2vw;
 }
 
 
@@ -90,7 +97,7 @@ body {
     flex-grow: 1;
     flex-basis: 300px;
     margin: 10px 0px;
-    padding: 20px;
+    padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
 }
 
@@ -98,16 +105,8 @@ body {
     flex-grow: 1;
     flex-basis: 300px;
     margin: 10px 0px;
-    padding: 20px;
+    padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
-}
-
-.column_wide p {
-    display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
 }
 
 h3 {
@@ -117,7 +116,7 @@ h3 {
     text-align: left;
     margin: auto;
     font-size: 2vw;
-    padding: 10px;
+    padding: 1vw;
 }
 
 h4 {
@@ -131,7 +130,6 @@ h4 {
 
 .price {
     font-size: 1vw;
-    font-weight: normal;
 }
 
 .menukort_btn a {
@@ -146,46 +144,61 @@ h4 {
 /*--------menukortlinks-------*/
 
 .menukort_intro_top {
-    margin: 0;
-    border-bottom: solid darkred 2px;
-    border-bottom-width: thick
-}
-
-.menukort_intro {
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px 0px;
-}
-
-.menukort_btn {
     display: flex;
     justify-content: center;
     background-color: rgba(45, 45, 45, 0.9);
     font-family: 'Open Sans';
     color: #F7F0E7;
+    padding: 1vw 0vw;
+    margin: 0;
+    border-bottom: solid darkred 2px;
+    border-bottom-width: thick;
+}
+
+.menukort_intro_parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menukort_intro_top a {
+    color: #F7F0E7;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 16px;
     padding: 1vw;
+    text-decoration: none;
+    letter-spacing: 0.3vw;
 }
 
-.menukort_btn a {
-    padding: 3vw;
+@media screen and (max-width: 1200px) {
+    .menukort_intro_top a {
+        color: #F7F0E7;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size: 1.3vw;
+        padding: 1vw;
+        text-decoration: none;
+        letter-spacing: 0.3vw;
+    }
 }
 
+
+}
+.menukort_intro {
+    margin: 10px 0px;
+}
 .menukort_intro_middle {
-    max-width: ;
     background-color: rgba(45, 45, 45, 0.9);
     text-align: center;
     padding: 0.7vw 20vw;
     margin: 0;
 }
-
 .btn_left {
     margin-left: 17vw;
 }
-
 .btn_right {
     margin-right: 17vw;
 }
-
 .menukort_intro_middle p {
     font-family: 'Open Sans';
     font-style: italic;
@@ -193,7 +206,6 @@ h4 {
     padding: 1.5vw 0vw;
     margin: 0;
 }
-
 .menukort_buttom {
     display: flex;
     justify-content: space-around;
@@ -201,15 +213,12 @@ h4 {
     font-family: 'Open Sans';
     color: #F7F0E7;
 }
-
 .menukort_buttom .btn_left {
     margin-left: 30vw;
 }
-
 .menukort_buttom .btn_right {
     margin-right: 30vw;
 }
-
 #vegi,
 #fish,
 #meat {
@@ -217,93 +226,67 @@ h4 {
     padding: 0 0 0 1vw;
     background-color: rgba(45, 45, 45, 0.9);
 }
-
 .btn_left a:hover,
 .btn_middle a:hover,
 .btn_right a:hover {
     color: darkred;
 }
 
-
 /*--------menukortliste-------*/
-
 .food_dish {
     display: flex;
     justify-content: space-between;
 }
-
 .food_info {
     padding: 1vw;
 }
-
 .food_name {
     margin-bottom: 10px;
     color: #F7F0E7;
     font-family: 'Open Sans';
 }
-
 .food_description {
     color: #c6beb5;
     font-family: 'Open Sans';
 }
-
 .food_price {
     font-family: 'Open Sans';
     color: #F7F0E7;
     padding: 1vw;
 }
-
 .food_category {
     display: flex;
     justify-content: space-between;
 }
 
-
 /*-- SPACE BETWEEN COLUMN --*/
-
 .space_between {
     width: 20px;
     margin: 10px 0px;
 }
-
-@media screen and (max-width: 831px) {
+@media screen and (max-width: 558px) {
     .space_between {
         background-color: rgba(45, 45, 45, 0.9);
     }
 }
 
-
 /*------- COLUMN 2 ------*/
-
 .column_narrow_left {
     flex-grow: 1;
     flex-basis: 300px;
     margin: 10px 0px;
-    padding: 20px 25px 20px 20px;
+    padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
 }
-
 .column_narrow_right {
     flex-grow: 1;
     flex-basis: 300px;
     margin: 10px 0px;
-    padding: 20px 25px 20px 20px;
+    padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
 }
 
-.column_narrow p {
-    display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-.column_narrow h2 {}
-
-
 /*------- FOOTER -------*/
-
 #footer {
     margin: 10px 0px 0px 0px;
     padding: 0vw 1vw;
@@ -314,17 +297,14 @@ h4 {
     height: 6vw;
     justify-content: space-between;
 }
-
 #footer img {
     filter: invert(100%);
     margin: 0.5vw 0.5vw;
     vertical-align: middle;
 }
-
 .footer_left {
     flex-grow: 1;
 }
-
 .footer_middle_right {
     flex-grow: 95;
     color: #F7F0E7;
@@ -332,7 +312,6 @@ h4 {
     text-align: right;
     font-size: 1vw;
 }
-
 .footer_middle_left {
     flex-grow: 90;
     color: #F7F0E7;
@@ -341,40 +320,27 @@ h4 {
     font-size: 1vw;
 }
 
-
 /*-------- TRIP ADVISOR ---------*/
-
 .footer_right {
     flex-grow: 8;
     text-align: right;
     margin-right: 1vw;
     filter: invert(100%);
 }
-
 .footer_right img {
     width: 6vw;
 }
-
 .footer_left img {
     width: 4.5vw;
 }
 
-
 /*--------- NAVIGATION MENU -------*/
-
 nav {
     background-color: rgba(45, 45, 45);
     position: relative;
     width: 100%;
     text-align: center;
 }
-
-nav li {
-    display: inline-block;
-    margin: 0vw 4vw 0vw 4vw;
-    vertical-align: middle;
-}
-
 nav a {
     display: inline-block;
     color: #F7F0E7;
@@ -384,19 +350,12 @@ nav a {
     font-weight: bold;
     font-size: 1.2vw;
     letter-spacing: 0.3vw;
-    vertical-align: middle;
 }
-
 nav a:hover {
     color: darkred;
 }
 
-
-/*--------- DROPDOWN MENU ----------*/
-
-
 /*---- DROP DOWN MENU ---*/
-
 header {
     position: fixed;
     width: 100%;
@@ -404,18 +363,15 @@ header {
     height: 55px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-
 .urten_nav_drop {
     margin: 0;
     width: 100%;
 }
-
 .urten_nav_drop img {
     width: 50px;
     vertical-align: middle;
     padding: 0px 0px 12px 0px;
 }
-
 .container_drop {
     margin: 0;
     position: fixed;
@@ -425,14 +381,12 @@ header {
     background-color: rgba(45, 45, 45, 0.9);
     min-width: 200px;
 }
-
 .container_drop a {
     color: black;
     padding: 10px 16px;
     text-decoration: none;
     display: block;
 }
-
 .bar1,
 .bar2,
 .bar3 {
@@ -443,48 +397,37 @@ header {
     transition: 0.4s;
 }
 
-
 /* Rotate first bar */
-
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
     background-color: darkred;
 }
 
-
 /* Fade out the second bar */
-
 .change .bar2 {
     opacity: 0;
     background-color: darkred;
 }
 
-
 /* Rotate last bar */
-
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
     background-color: darkred;
 }
-
 .dropdown {
     display: none;
 }
 
-
 /* Dropdown Content (Hidden by Default) */
-
 .dropdown-content {
     min-width: 160px;
     width: 20px;
     z-index: 1;
 }
 
-
 /* Links inside the dropdown */
-
 .dropdown-content a {
     color: #F7F0E7;
     padding: 20px 0px 0px 5px;
@@ -494,32 +437,26 @@ header {
     letter-spacing: 3px;
 }
 
-
 /* Change color of dropdown links on hover */
-
 .dropdown-content a:hover {
     color: darkred;
 }
 
-
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-
 .show {
     display: block;
 }
 
-
 /*-------- Media Queries ---------- */
-
 @media all and (max-width: 828px) {
     nav {
         display: none;
     }
+
     #title img {
         margin-top: 90px;
     }
 }
-
 @media all and (min-width: 828px) {
     header {
         display: none;
