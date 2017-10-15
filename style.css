@@ -1,52 +1,77 @@
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
 
-/* --------------------------- indexsiden ---------------------------------*/
 
 /* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
+
+/* --------------------------- indexsiden ---------------------------------*/
+
 
 /*--------------fælles-----------*/
 
@@ -86,7 +111,6 @@ body {
     margin-bottom: 20px;
     text-align: left;
 }
-
 
 
 /*------ NAV MENU IN CONTENT -----*/
@@ -183,6 +207,7 @@ body {
 
 /*---------fælles---------*/
 
+
 /*------- FOOTER -------*/
 
 #footer {
@@ -225,6 +250,7 @@ body {
 
 /*----------fælles--------*/
 
+
 /*-------- TRIP ADVISOR ---------*/
 
 .footer_right {
@@ -242,7 +268,9 @@ body {
     width: 4.5vw;
 }
 
+
 /*---------fælles--------*/
+
 
 /*--------- NAVIGATION MENU -------*/
 
@@ -275,11 +303,15 @@ nav a:hover {
     color: darkred;
 }
 
+
 /*---------fælles--------*/
+
 
 /*--------- DROPDOWN MENU ----------*/
 
+
 /*---------fælles--------*/
+
 
 /*---- DROP DOWN MENU ---*/
 
@@ -413,70 +445,93 @@ header {
 }
 
 
-
+/* --------------------------- menusiden ---------------------------------*/
 
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
-/* --------------------------- menusiden ---------------------------------*/
 
 /* --------------------------- menusiden ---------------------------------*/
 
+
 /* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
+
+/* --------------------------- menusiden ---------------------------------*/
+
 
 /*------- MID SECTION -----*/
 
 #mid_section_menukort {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: 10px 0px;
 }
@@ -508,7 +563,7 @@ header {
 
 #mid_section_menukort .column_wide_left {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
     margin: 10px 0px;
     padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
@@ -516,7 +571,7 @@ header {
 
 #mid_section_menukort .column_wide_right {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
     margin: 10px 0px;
     padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
@@ -595,28 +650,35 @@ header {
     }
 }
 
-
+@media screen and (max-width: 1000px) {
+    #mid_section_menukort .menukort_intro_top a {
+        color: #F7F0E7;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size: 1.5vw;
+        padding: 1vw;
+        text-decoration: none;
+        letter-spacing: 0.3vw;
+    }
 }
 
+
+}
 #mid_section_menukort .menukort_intro {
     margin: 10px 0px;
 }
-
 #mid_section_menukort .menukort_intro_middle {
     background-color: rgba(45, 45, 45, 0.9);
     text-align: center;
     padding: 0.7vw 20vw;
     margin: 0;
 }
-
 #mid_section_menukort .btn_left {
     margin-left: 17vw;
 }
-
 #mid_section_menukort .btn_right {
     margin-right: 17vw;
 }
-
 #mid_section_menukort .menukort_intro_middle p {
     font-family: 'Open Sans';
     font-style: italic;
@@ -624,23 +686,6 @@ header {
     padding: 1.5vw 0vw;
     margin: 0;
 }
-
-#mid_section_menukort .menukort_buttom {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(45, 45, 45, 0.9);
-    font-family: 'Open Sans';
-    color: #F7F0E7;
-}
-
-#mid_section_menukort .menukort_buttom .btn_left {
-    margin-left: 30vw;
-}
-
-#mid_section_menukort .menukort_buttom .btn_right {
-    margin-right: 30vw;
-}
-
 #vegi,
 #fish,
 #meat {
@@ -648,72 +693,61 @@ header {
     padding: 0 0 0 1vw;
     background-color: rgba(45, 45, 45, 0.9);
 }
-
-.btn_left a:hover,
-.btn_middle a:hover,
-.btn_right a:hover {
+#mid_section_menukort .btn_left a:hover,
+#mid_section_menukort .btn_middle a:hover,
+#mid_section_menukort .btn_right a:hover {
     color: darkred;
 }
 
 /*--------menukortliste-------*/
-
 #mid_section_menukort .food_dish {
     display: flex;
     justify-content: space-between;
 }
-
 #mid_section_menukort .food_info {
     padding: 1vw;
 }
-
 #mid_section_menukort .food_name {
     margin-bottom: 10px;
     color: #F7F0E7;
     font-family: 'Open Sans';
 }
-
 #mid_section_menukort .food_description {
     color: #c6beb5;
     font-family: 'Open Sans';
 }
-
 #mid_section_menukort .food_price {
     font-family: 'Open Sans';
     color: #F7F0E7;
     padding: 1vw;
 }
-
 #mid_section_menukort .food_category {
     display: flex;
     justify-content: space-between;
 }
 
 /*-- SPACE BETWEEN COLUMN --*/
-
 #mid_section_menukort .space_between {
     width: 20px;
     margin: 10px 0px;
 }
-
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 750px) {
     #mid_section_menukort .space_between {
         background-color: rgba(45, 45, 45, 0.9);
     }
 }
 
 /*------- COLUMN 2 ------*/
-
 #mid_section_menukort .column_narrow_left {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
     margin: 10px 0px;
     padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
 }
-
 #mid_section_menukort .column_narrow_right {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
     margin: 10px 0px;
     padding: 2vw;
     background-color: rgba(45, 45, 45, 0.9);
@@ -728,7 +762,6 @@ header {
 /*---- DROP DOWN MENU ---*/
 
 /*-------- Media Queries ---------- */
-
 @media all and (max-width: 828px) {
     nav {
         display: none;
@@ -738,16 +771,11 @@ header {
         margin-top: 90px;
     }
 }
-
 @media all and (min-width: 828px) {
     header {
         display: none;
     }
 }
-
-
-
-
 
 /* --------------------------- omsiden ---------------------------------*/
 
@@ -810,7 +838,6 @@ header {
 /* --------------------------- omsiden ---------------------------------*/
 
 /*------ NAV MENU IN CONTENT -----*/
-
 #mid_section_om {
     display: flex;
     flex-wrap: wrap;
@@ -818,13 +845,9 @@ header {
     align-items: center;
     margin: 10px 0px;
     vertical-align: middle;
-
-
 }
 
-
 /*------- COLUMN 1 ------*/
-
 #mid_section_om .column_wide {
     flex-grow: 1;
     flex-basis: 300px;
@@ -834,40 +857,31 @@ header {
     background-color: rgba(45, 45, 45, 0.9);
     overflow: hidden;
 }
-
 #mid_section_om .column_wide p {}
-
 #mid_section_om .video_content {
     display: flex;
     align-items: center;
     height: 45vw;
     width: 100%;
 }
-
 #mid_section_om .column_wide iframe {
     width: inherit;
     height: inherit;
     align-self: center;
-
 }
 
-
 /*-- SPACE BETWEEN COLUMN --*/
-
 #mid_section_om .space_between {
     width: 20px;
     margin: 10px 0px;
 }
-
 @media screen and (max-width: 831px) {
     #mid_section_om .space_between {
         background-color: rgba(45, 45, 45, 0.9);
     }
 }
 
-
 /*------- COLUMN 3 ------*/
-
 #mid_section_om .column_narrow {
     flex-grow: 1;
     flex-basis: 300px;
@@ -877,29 +891,24 @@ header {
     text-align: center;
     align-self: stretch;
 }
-
 #mid_section_om .column_narrow h3 {
     color: #F7F0E7;
     font-family: 'open sans';
 }
-
 #mid_section_om .column_narrow p {
     color: #F7F0E7;
     font-family: 'open sans';
     opacity: 1;
 }
-
 #mid_section_om .top img {
     width: 100%;
     margin-bottom: 20px;
     border: 3px solid darkred;
 }
-
 #mid_section_om .bottom img {
     width: 100%;
     border: 3px solid darkred;
 }
-
 
 /*------- FOOTER -------*/
 
@@ -912,37 +921,30 @@ header {
 /*---- DROP DOWN MENU ---*/
 
 /*-------- Media Queries ---------- */
-
 @media all and (max-width: 828px) {
     nav {
         display: none;
     }
+
     #title img {
         margin-top: 90px;
     }
-    .video_content {
 
+    .video_content {
         width: 75vw;
         text-align: center;
     }
-
 }
-
 @media all and (min-width: 828px) {
     header {
         display: none;
     }
-    .video_content {
 
+    .video_content {
         height: 20vw;
         width: 100% text-align: center;
     }
-
 }
-
-
-
-
 
 /* --------------------------- bookingsiden ---------------------------------*/
 
